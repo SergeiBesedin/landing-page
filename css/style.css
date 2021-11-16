@@ -22,7 +22,7 @@ li {
 
 /* СТИЛИ ДЛЯ HEADER */
 .header {
-  background: url(images/background-header.png) no-repeat;
+  background: url(/images/background-header.png) no-repeat;
   height: 670px;
   color: #fff;
 }
@@ -193,7 +193,7 @@ li {
 
 /* СТИЛИ ДЛЯ БЛОКА ВИДЕО */
 .video {
-  background: url(images/background-city.png) no-repeat;
+  background: url(/images/background-city.png) no-repeat;
   height: 550px;
   display: flex;
   align-items: center;
@@ -208,13 +208,13 @@ li {
 .video__start-button {
   width: 100px;
   height: 100px;
-  background: url(images/play.png) no-repeat;
+  background: url(/images/play.png) no-repeat;
   border: none;
   cursor: pointer;
 }
 
 .video__start-button:hover {
-  background: url(images/play-blue.png) no-repeat;
+  background: url(/images/play-blue.png) no-repeat;
   transition: 500ms;
 }
 
@@ -232,6 +232,7 @@ li {
 }
 
 .expertise__subtitle {
+  font-family: 'Playfair Display';
   opacity: 0.74;
   letter-spacing: 0.075em;
   color: #2f2d35;
@@ -268,7 +269,7 @@ li {
 
 /* СТИЛИ ДЛЯ БЛОКА TEAM */
 .team {
-  background: url(images/background-forest.png) no-repeat;
+  background: url(/images/background-forest.png) no-repeat;
   color: #ffffff;
 }
 
@@ -281,6 +282,7 @@ li {
 }
 
 .team__subtitle {
+  font-family: 'Playfair Display';
   letter-spacing: 0.075em;
   margin-bottom: 67px;
 }
@@ -334,6 +336,13 @@ li {
 .works__title {
   letter-spacing: 0.05em;
   color: #413d4b;
+}
+
+.works__subtitle {
+  font-family: 'Playfair Display';
+  opacity: 0.74;
+  letter-spacing: 0.075em;
+  color: #2f2d35;
   margin-bottom: 40px;
 }
 
@@ -392,7 +401,7 @@ li {
 
 /* СТИЛИ БЛОКА TESTIMONIALS */
 .testimonials {
-  background: url(images/forest_2.png) no-repeat;
+  background: url(/images/forest_2.png) no-repeat;
   padding: 50px 0;
   color: #fff;
 }
@@ -425,21 +434,21 @@ li {
 }
 
 .testimonials__next {
-  background: url(images/next.png) no-repeat;
+  background: url(/images/next.png) no-repeat;
   transition: 500ms;
 }
 
 .testimonials__next:hover {
-  background: url(images/next-blue.png) no-repeat;
+  background: url(/images/next-blue.png) no-repeat;
 }
 
 .testimonials__back {
-  background: url(images/back.png) no-repeat;
+  background: url(/images/back.png) no-repeat;
   transition: 500ms;
 }
 
 .testimonials__back:hover {
-  background: url(images/back-blue.png) no-repeat;
+  background: url(/images/back-blue.png) no-repeat;
 }
 
 .testimonials__author {
@@ -507,7 +516,7 @@ li {
 
 /* СТИЛИ ДЛЯ БЛОКА FOOTER */
 .footer {
-  background: url(images/background-footer.png) no-repeat;
+  background: url(/images/background-footer.png) no-repeat;
   color: #fff;
 }
 
@@ -548,7 +557,7 @@ li {
 
 .footer__address:before {
   content: '';
-  background: url(images/location-icon.png) no-repeat;
+  background: url(/images/location-icon.png) no-repeat;
   width: 15px;
   height: 20px;
   position: absolute;
@@ -557,7 +566,7 @@ li {
 
 .footer__phone:before {
   content: '';
-  background: url(images/phone-icon.png) no-repeat;
+  background: url(/images/phone-icon.png) no-repeat;
   width: 17px;
   height: 20px;
   position: absolute;
@@ -619,6 +628,7 @@ li {
   padding: 0;
   width: 260px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -629,7 +639,7 @@ li {
 
 /* SCROLL TOP */
 .scroll {
-  background: url(images/vector.png) no-repeat;
+  background: url(/images/vector.png) no-repeat;
   width: 50px;
   height: 50px;
   position: fixed;
